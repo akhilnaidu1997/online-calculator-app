@@ -10,7 +10,7 @@ steps:
     publishWebProjects: true
 - task: AzureWebApp@1
   inputs:
-    azureSubscription: 'Web-App-aspdotnet'
+    azureSubscription: 'Online-calculator'
     appType: 'webAppLinux'
-    appName: 'Web-app-aspdotnet'
+    appName: 'Online-calculator'
     package: '$(System.DefaultWorkingDirectory)/**/*.zip'
